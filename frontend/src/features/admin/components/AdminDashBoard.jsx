@@ -78,8 +78,8 @@ export const AdminDashBoard = () => {
                 to={`/admin/product-update/${product._id}`}
                 variant="contained"
                 sx={{
-                  backgroundColor: "#047d61",
-                  "&:hover": { backgroundColor: "#12997B" },
+                  backgroundColor: "#C27B06",
+                  "&:hover": { backgroundColor: "#a86205" },
                 }}
               >
                 Modifier

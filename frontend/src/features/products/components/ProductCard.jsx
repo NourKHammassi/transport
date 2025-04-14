@@ -40,7 +40,8 @@ export const ProductCard = ({ id, title, description, thumbnail }) => {
         sx={{
           width: "100%",
           height: "170px", // Fixed height for the image
-          overflow: "hidden", // Prevent overflow
+          overflow: "hidden", // Clip overflowed image parts
+          borderRadius: "8px", // Optional: give it a nice touch
         }}
         onClick={() => navigate(`/product-details/${id}`)}
       >
@@ -48,12 +49,14 @@ export const ProductCard = ({ id, title, description, thumbnail }) => {
           src={thumbnail.Location}
           alt={title}
           style={{
-            width: "100%", // Image fills the width of the container
-            height: "100%", // Image fills the height of the container
-            objectFit: "contain", // Ensures the image fits within the container
+            width: "100%",
+            height: "100%",
+            objectFit: "cover", // Crop to fill the area
+            objectPosition: "center", // Keep it centered
           }}
         />
       </Stack>
+
 
       {/* Product Details */}
       <Stack
@@ -95,9 +98,9 @@ export const ProductCard = ({ id, title, description, thumbnail }) => {
         <Button
           variant="contained"
           sx={{
-            backgroundColor: "#047d61",
+            backgroundColor: "#C27B06",
             "&:hover": {
-              backgroundColor: "#12997B", // Change color on hover
+              backgroundColor: "#a86205", // Slightly darker shade for hover
             },
             borderRadius: "20px", // Rounded corners
             padding: "8px 16px",
@@ -113,6 +116,7 @@ export const ProductCard = ({ id, title, description, thumbnail }) => {
         >
           Demander un devis
         </Button>
+
       </Stack>
     </Paper>
   );

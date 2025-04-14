@@ -4,134 +4,123 @@ import { Container, Typography, Box, Paper } from "@mui/material";
 export const ConditionsGenerales = () => {
   return (
     <Container maxWidth="md" sx={{ py: 6 }}>
-      <Typography variant="h3" align="center" gutterBottom>
-        Conditions Générales de Vente de CLIM75
+      <Typography variant="h3" align="center" gutterBottom style={{ color: "#0F3F80" }}>
+        Conditions Générales de Vente de UNION PRESTIGE
       </Typography>
 
       <Paper elevation={3} sx={{ p: 4, mt: 4, borderRadius: 2 }}>
         <Box mb={4}>
-          <Typography variant="h5" gutterBottom>
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
             Article 1 : Objet
           </Typography>
           <Typography>
-            Les présentes conditions générales de vente définissent les droits
-            et obligations de la société CLIM75 et de ses clients dans le cadre
-            de la fourniture de services d’installation électrique, chauffage,
-            remplacement de climatisation, plomberie ainsi que la vente en ligne
-            d’équipements, conformément aux articles L.111-1 et suivants du Code
-            de la consommation.
+            Les présentes Conditions Générales de Vente (CGV) régissent les prestations de transport de personnes avec chauffeur (VTC) proposées par la société UNION PRESTIGE, Société par Actions Simplifiée au capital de 500 €, immatriculée au RCS de Bobigny sous le numéro 934 722 414, dont le siège social est situé au 23 Allée Virginie, 93320 Les Pavillons-sous-Bois. Toute commande de prestation implique l’adhésion sans réserve du client aux présentes CGV.
           </Typography>
         </Box>
 
         <Box mb={4}>
-          <Typography variant="h5" gutterBottom>
-            Article 2 : Commandes
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
+            Article 2 : Réservation
           </Typography>
           <Typography>
-            Toute demande de prestation doit être validée par un devis signé.
-            L’acceptation du devis implique l’adhésion aux présentes CGV. Les
-            produits disponibles à la vente en ligne peuvent être commandés
-            directement via notre site internet, en conformité avec l’article
-            L.221-13 du Code de la consommation.
+            Les réservations peuvent être effectuées par téléphone, e-mail, ou via une plateforme en ligne (si disponible). Toute demande doit préciser le lieu, la date, l’heure de prise en charge, le nombre de passagers, et la destination. La société se réserve le droit de refuser toute réservation incomplète ou non conforme.
           </Typography>
         </Box>
 
         <Box mb={4}>
-          <Typography variant="h5" gutterBottom>
-            Article 3 : Prix
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
+            Article 3 : Tarifs et Paiement
           </Typography>
           <Typography>
-            Les prix sont indiqués en euros et peuvent être modifiés selon
-            l’évolution du marché. Les prestations et produits sont facturés sur
-            la base du tarif en vigueur au moment de la commande, conformément à
-            l’article L.112-1 du Code de la consommation.
+            Les prix sont indiqués en euros toutes taxes comprises (TTC). Ils sont déterminés à l’avance selon un forfait ou via un compteur kilométrique/temps. Le règlement s’effectue par carte bancaire, virement, espèces ou paiement en ligne sécurisé via notre site internet.
+            <br />
+            En cas de paiement en ligne, une confirmation de la transaction sera envoyée automatiquement au client. La réservation ne sera considérée comme définitive qu’à réception du paiement. Aucun escompte ne sera accordé pour paiement anticipé.
           </Typography>
         </Box>
 
         <Box mb={4}>
-          <Typography variant="h5" gutterBottom>
-            Article 4 : Modalités de paiement
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
+            Article 4 : Conditions d’annulation
           </Typography>
           <Typography>
-            Le règlement des prestations et des commandes en ligne s’effectue
-            via : Carte bancaire (Visa, Mastercard, American Express), Virement
-            bancaire, PayPal. Les paiements en ligne sont sécurisés via une
-            passerelle de paiement garantissant la confidentialité des données
-            bancaires, conformément à l’article L.133-4 du Code monétaire et
-            financier.
+            Le client peut annuler gratuitement une course jusqu’à 2 heures avant l’heure prévue. En cas d’annulation tardive (moins de 2 heures), 50% du montant de la prestation sera facturé. En cas d’absence du client au point de rendez-vous après 15 minutes d’attente, la course est considérée comme annulée et facturée intégralement.
           </Typography>
         </Box>
 
         <Box mb={4}>
-          <Typography variant="h5" gutterBottom>
-            Article 5 : Livraison et Exécution
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
+            Article 5 : Obligations du client
           </Typography>
           <Typography>
-            Les services sont exécutés selon les délais définis dans le devis.
-            Pour les ventes en ligne, les produits sont expédiés sous 5 à 7
-            jours ouvrés après confirmation de paiement, en conformité avec
-            l’article L.216-1 du Code de la consommation.
+            Le client s’engage à respecter les règles de sécurité et de courtoisie à bord du véhicule. Il est interdit de fumer, consommer de l’alcool ou des stupéfiants, ou de dégrader le véhicule. Toute dégradation volontaire entraînera une facturation des réparations.
           </Typography>
         </Box>
 
         <Box mb={4}>
-          <Typography variant="h5" gutterBottom>
-            Article 6 : Garantie
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
+            Article 6 : Obligations du chauffeur
           </Typography>
           <Typography>
-            Les installations sont couvertes par une garantie de conformité de
-            12 mois, sauf mention contraire. Les produits vendus en ligne
-            bénéficient de la garantie légale de conformité prévue aux articles
-            L.217-4 et suivants du Code de la consommation.
+            Le chauffeur s’engage à effectuer la course dans les meilleures conditions de confort, de ponctualité et de sécurité. Il respecte la réglementation en vigueur liée au transport VTC.
           </Typography>
         </Box>
 
         <Box mb={4}>
-          <Typography variant="h5" gutterBottom>
-            Article 7 : Droit de rétractation
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
+            Article 7 : Retard ou impossibilité d’exécution
           </Typography>
           <Typography>
-            Conformément à l’article L.221-18 du Code de la consommation, le
-            client dispose de 14 jours pour exercer son droit de rétractation
-            sans avoir à justifier de motifs.
+            En cas de retard dû à un événement indépendant de la volonté de la société (embouteillage, conditions météo, accident...), UNION PRESTIGE ne pourra être tenue responsable. Si la prestation ne peut être réalisée, elle sera remboursée intégralement sans pénalité.
           </Typography>
         </Box>
 
         <Box mb={4}>
-          <Typography variant="h5" gutterBottom>
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
             Article 8 : Responsabilité
           </Typography>
           <Typography>
-            CLIM75 ne saurait être tenu responsable des dommages directs ou
-            indirects résultant d’une mauvaise installation par un tiers ou
-            d’une mauvaise utilisation des produits achetés, en conformité avec
-            l’article 1240 du Code civil.
+            UNION PRESTIGE est assurée pour le transport de personnes à titre onéreux. Sa responsabilité ne saurait être engagée pour les retards imputables au client ou à des cas de force majeure.
           </Typography>
         </Box>
 
         <Box mb={4}>
-          <Typography variant="h5" gutterBottom>
-            Article 9 : Protection des données
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
+            Article 9 : Données personnelles
           </Typography>
           <Typography>
-            Les données personnelles des clients sont collectées et traitées
-            conformément au Règlement Général sur la Protection des Données
-            (RGPD) et à la loi Informatique et Libertés du 6 janvier 1978. Le
-            client dispose d’un droit d’accès, de rectification et de
-            suppression de ses données sur simple demande, conformément aux
-            articles 15 à 21 du RGPD.
+            Conformément au RGPD, les données personnelles collectées sont utilisées exclusivement pour la gestion des réservations et ne sont pas communiquées à des tiers. Le client dispose d’un droit d’accès, de rectification, de suppression et d’opposition.
+          </Typography>
+        </Box>
+
+        <Box mb={4}>
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
+            Article 10 : Réclamations
+          </Typography>
+          <Typography>
+            Toute réclamation doit être adressée à la société dans un délai de 7 jours après la prestation par e-mail ou courrier à :<br />
+            <strong>UNION PRESTIGE</strong><br />
+            23 Allée Virginie, 93320 Les Pavillons-sous-Bois<br />
+            Email : [à compléter]
+          </Typography>
+        </Box>
+
+        <Box mb={4}>
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
+            Article 11 : Droit applicable
+          </Typography>
+          <Typography>
+            Les présentes CGV sont soumises au droit français. En cas de litige, les parties privilégieront une résolution amiable. À défaut, le tribunal compétent sera celui du siège social de la société.
           </Typography>
         </Box>
 
         <Box>
-          <Typography variant="h5" gutterBottom>
-            Article 10 : Litiges et droit applicable
+          <Typography variant="h5" gutterBottom style={{ color: "#0F3F80" }}>
+            Mentions légales
           </Typography>
           <Typography>
-            En cas de litige, une solution amiable sera privilégiée. À défaut,
-            toute contestation relèvera de la compétence exclusive des tribunaux
-            de Paris, en application des articles R.631-3 et suivants du Code de
-            la consommation.
+            UNION PRESTIGE - SAS au capital de 500 € - RCS Bobigny n° 934 722 414<br />
+            Siège social : 23 Allée Virginie, 93320 Les Pavillons-sous-Bois<br />
+            Président : M. SLITI Soufian
           </Typography>
         </Box>
       </Paper>

@@ -174,7 +174,7 @@ export const Signup = () => {
               type="submit"
               variant="contained"
               sx={{
-                backgroundColor: "#047d61",
+                backgroundColor: "#C27B06",
                 color: "white",
                 fontWeight: 600,
               }}

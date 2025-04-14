@@ -86,7 +86,7 @@ export const Login = () => {
           alignItems={"center"}
         >
           <img
-            style={{ width: "50%", height: "50%", borderRadius: "50%" }}
+            style={{ width: "50%", height: "50%", borderRadius: "10%" }}
             src={login}
           />
         </Box>
@@ -152,7 +152,7 @@ export const Login = () => {
               type="submit"
               variant="contained"
               sx={{
-                backgroundColor: "#047d61",
+                backgroundColor: "#C27B06",
                 color: "white",
                 fontWeight: 600,
               }}

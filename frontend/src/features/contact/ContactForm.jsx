@@ -59,16 +59,16 @@ export const ContactForm = () => {
         {/* Informations de contact */}
         <Typography mt={2} textAlign="center">
           <h4>
-            Besoin d’un renseignement ou d’un devis ? Contactez-nous dès
-            maintenant :
+            Besoin d’un renseignement ou d’un devis ? Contactez-nous dès maintenant :
           </h4>
           <br />
-          📞 +33 7 53 21 95 58
+          📞 +{process.env.REACT_APP_BASE_NUMBER}
           <br />
-          📍 16 rue Marx Dormoy, 75018 Paris
+          📍 {process.env.REACT_APP_BASE_ADRESS}
           <br />
-          📧 contact@clim75.fr{" "}
+          📧 {process.env.REACT_APP_BASE_MAIL}
         </Typography>
+
 
         <Stack rowGap={3}>
           <Stack flexDirection={"row"}>
@@ -122,9 +122,9 @@ export const ContactForm = () => {
             variant="contained"
             type="submit"
             sx={{
-              backgroundColor: "#047d61",
+              backgroundColor: "#C27B06",
               "&:hover": {
-                backgroundColor: "#12997B", // Changement de couleur au survol
+                backgroundColor: "#a86205", // Changement de couleur au survol
               },
             }}
           >
@@ -133,14 +133,14 @@ export const ContactForm = () => {
           <Button
             size={is480 ? "medium" : "large"}
             sx={{
-              borderColor: "#047d61",
+              borderColor: "#C27B06",
               borderWidth: "1px", // Set the border width to 1px
               borderStyle: "solid", // Ensure the border is solid
-              color: "#047d61", // Text color
+              color: "#C27B06", // Text color
               backgroundColor: "white", // Background color
               "&:hover": {
-                borderColor: "#12997B", // Change border color on hover
-                color: "#12997B", // Change text color on hover
+                borderColor: "#C27B06", // Change border color on hover
+                color: "#a86205", // Change text color on hover
               },
             }}
             component={Link}
