@@ -39,6 +39,7 @@ import { Contact } from "./pages/Contact";
 import { About } from "./pages/About";
 import { Services } from "./pages/Services";
 import { DemanderDevis } from "./pages/DemanderDevis";
+import { MentionsLegales } from "./pages/LegalMentions";
 
 function App() {
   const isAuthChecked = useSelector(selectIsAuthChecked);
@@ -69,6 +70,7 @@ function App() {
         />
 
         <Route path="/conditions" element={<GeneralConditions />} />
+        <Route path="/mentionsLegales" element={<MentionsLegales />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
